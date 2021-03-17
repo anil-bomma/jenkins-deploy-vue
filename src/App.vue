@@ -1,15 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Home msg="I LOVE VUE WITH DOCKER"/>
+  <img alt="Docker logo" src="./assets/docker.png" style="width: 25%">
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Home
   }
 }
 </script>
